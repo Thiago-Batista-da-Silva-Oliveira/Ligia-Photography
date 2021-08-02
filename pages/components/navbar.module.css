@@ -1,0 +1,25 @@
+.navbar{
+    width: 100vw;
+    height: 40px; 
+   
+    display: flex;
+    background: #FFF;
+    justify-content: space-around;
+    align-items: center; 
+    position: fixed;   
+    color: black;
+    z-index: 15;
+}
+
+.social_media i{
+   margin-left: 20px;
+   font-size: 20px;
+   padding: 10px;
+
+}
+
+@media (max-width: 500px){
+    .email{
+        display: none;
+    }
+}

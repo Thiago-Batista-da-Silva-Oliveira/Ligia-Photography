@@ -1,0 +1,338 @@
+/*.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container h1{
+    color: rgb(109, 108, 108);
+}
+
+.container h2{
+    color: rgb(109, 108, 108);
+}
+.info{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 100vw;
+    margin-top: 30px;
+    position: relative;
+  
+   
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+   align-self: start;
+ 
+  
+}
+
+.contatos i{
+    margin-right: 10px;
+   
+   
+}
+
+.contatos span{
+    font-size: 22px;
+    margin-bottom: 20px
+}
+
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card input{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+    margin-bottom: 20px;
+    outline: none;
+   
+}
+
+.card textarea{
+    width: 500px;
+    height: 100px;
+    padding: 15px
+}
+
+.btn{
+    margin-top: 20px;
+    border: none;
+    padding: 15px;
+    outline: none;
+    background: black;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    transition:  0.3s;
+    display: flex;
+    align-self: start;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 920px){
+    .container{
+        padding-top: 120px;
+        position: relative;
+    }
+    .info{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        width: 100vw;
+        margin-top: 30px;
+        position: relative;
+        flex-direction: column;
+    }
+
+    
+    .contatos{
+        justify-content: center;
+        align-self: center;
+        margin-top: 10px;
+   }
+
+   
+.card input{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.card textarea{
+    width: 400px;
+}
+
+   .btn{
+       align-self: center;
+       font-size: 18px;
+   }
+
+  
+    
+}
+
+@media screen and (max-width: 600px){
+    .card input{
+        border: 1px solid #ccc;
+        padding: 15px;
+        border-radius: 10px;
+        width: 300px;
+        margin-bottom: 20px;
+        outline: none;
+    }
+    
+    .card textarea{
+        width: 300px;
+    }
+
+    .contatos{
+        justify-content: center;
+        align-self: center;
+        margin-top: 10px;
+        margin-left: 40px;
+   }
+} */
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1{
+    color: rgb(109, 108, 108);
+    text-align: center;
+    
+}
+
+.container h2{
+    color: rgb(109, 108, 108);
+}
+.info{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    width: 100vw;
+    margin-top: 30px;
+    position: relative;
+  
+   
+}
+
+.contatos{
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+   align-self: start;
+   
+ 
+  
+}
+
+.contatos i{
+    margin-right: 10px;
+   
+   
+}
+.btn{
+    margin-top: 20px;
+    border: none;
+    padding: 15px;
+    outline: none;
+    background: black;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    transition:  0.3s;
+    display: flex;
+    align-self: start;
+}
+
+.btn:hover{
+  opacity: 0.8;
+}
+.contatos span{
+    font-size: 22px;
+    margin-bottom: 20px
+}
+
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.card input{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    width: 500px;
+    margin-bottom: 20px;
+    outline: none;
+   
+}
+
+.card textarea{
+    width: 500px;
+    height: 100px;
+    padding: 15px
+}
+
+
+.contact{
+    align-self: start;
+}
+
+  @media screen and (max-width: 960px){
+    .container{
+       /*height: 100%;   */
+       padding-top: 80px; 
+       overflow-y: scroll;
+       margin-top: 20px;
+      
+    }
+    .info{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        width: 100vw;
+        margin-top: 30px;
+       /* position: relative; */
+        flex-direction: column
+    }
+
+
+    .contatos{
+        margin-top: 30px; 
+        display: flex;
+        flex-direction: column;   
+        width: 500px;
+        justify-content: center;
+        align-self: center
+    }
+
+    .contatos span{
+        margin-top: 10px;
+    }
+
+    .container h1{
+        margin-top: 300px;
+    }
+  }
+
+  @media screen and (max-width: 720px){
+    .card input{
+        width: 400px;
+        margin-bottom: 20px;
+    }
+    
+    .card textarea{
+        width: 400px;
+        height: 100px;
+    }
+
+    .form{
+        margin-right: 85px;
+    }
+     .container h1{
+        
+        font-size: 40px;
+        margin-left: -75px;
+    }
+
+    .container{
+        padding-left: 80px;
+        padding-top: 80px;
+    }
+    
+  }
+  @media screen and (max-width: 475px){
+    .card input{
+        width: 300px;
+    }
+    
+    .card textarea{
+        width: 300px;
+    }
+
+    .contatos{
+        margin-left: 95px
+    }
+
+    .contatos span{
+        font-size: 18px;
+    }
+  }

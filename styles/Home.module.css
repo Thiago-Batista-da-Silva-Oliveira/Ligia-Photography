@@ -1,0 +1,115 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden
+}
+
+.img_container{
+  height: 100vh;
+  width: 100vw;
+  padding-top: 120px;
+  position: relative;
+ 
+}
+
+.img_container img{
+  height: 75vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.pacotes{
+ 
+  width: 100vw;
+  margin-top: 20px;
+  
+}
+
+.options{
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+.card{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;  
+}
+
+.card span{
+ font-size: 17px;
+}
+
+.trabalhos{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.ultimosTrabalhos{
+  margin-top : 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 8%;
+}
+
+.ultimos2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ultimos3{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.ultimos2 .ultimoCard img{
+  width: 400px;
+  height: 400px;
+}
+
+.ultimoCard img{
+ width: 350px;
+ height: 350px;
+ margin-left: 20px;
+ cursor: pointer;
+}
+
+@media only screen and (min-width: 1200px) {
+  .content__blog__container {
+    width: 84%;
+  }
+}
+
+@media (max-width: 720px){
+  .options{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column
+  }
+  .ultimoCard img{
+    width: 300px;
+    height: 300px;
+    margin-left: 0px
+   }
+
+   .ultimos2 .ultimoCard img{
+    width: 300px;
+    height: 300px;
+  }
+}

@@ -1,0 +1,26 @@
+.footer{
+    height: 150px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 167, 167);
+    margin-top: 10px;
+  
+}
+
+.logo img{
+    height: 120px;
+}
+
+.social{
+    display: flex;
+}
+
+.social i {
+    color: black;
+    font-size: 20px;
+    padding: 0 20px;
+    cursor: pointer;
+}
